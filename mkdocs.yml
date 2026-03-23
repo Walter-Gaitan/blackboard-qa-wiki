@@ -1,0 +1,47 @@
+site_name: Blackboard QA Automation
+site_description: Documentation for Blackboard LMS Manual QA
+theme:
+  name: material
+  features:
+    - navigation.expand
+    - navigation.sections
+    - navigation.top
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: teal
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: teal
+      accent: lime
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Onboarding:
+      - QA Guide: QA_Onboarding_Guide.md
+  - TQA – Teacher QA:
+      - TQA Checklist: tqa_checklist.md
+      - TQA Advice: tqa_advice.md
+      - TQA Form Mapping: tqa_form_mapping.md
+  - SQA – Student QA:
+      - SQA Checklist: student_qa_checklist.md
+      - SQA Advice: sqa_advice.md
+      - SQA Form Mapping: form_mapping.md
+  - PSQA – Post-Sync QA:
+      - PSQA Checklist: psqa_checklist.md
+      - PSQA Form Mapping: psqa_form_mapping.md
+  - Automation:
+      - Setup Guide: automation_setup.md
+      - Test Reference: test_reference.md
+  - Reference:
+      - QA Protocols: qa_protocols.md
+      - Edge Cases: edge_cases.md
+      - Program Quirks: program_quirks.md
